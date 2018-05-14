@@ -1,0 +1,44 @@
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+.App {
+    height: 100%;
+    width: 50%;
+    margin: auto;
+}
+
+.board-list {
+    padding: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.board-item {
+    padding: 25px;
+
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+
+.create-board {
+    flex-direction: column;
+}
+
+.create-title {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.create-board-form {
+    display: flex;
+    flex-direction: column;
+}
